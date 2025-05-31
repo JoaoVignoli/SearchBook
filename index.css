@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 350px;
+    height: 650px;
+}
+
+#bookCover {
+    margin: 25px;
+    width: 170px;
+    height: 270px;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#synopsis {
+    max-height: 150px;
+    overflow: scroll;
+    text-align: justify;
+    padding: 1px;
+    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;;
+}
+
+#cover {
+    width: 100%;
+    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+}
+
+#button {
+    margin: 10px;
+    height: 40px;
+    width: 60px;
+}
+
+#search-label {
+    font-weight: bold;
+}
+
+#book-table {
+    width: 350px;
+}
